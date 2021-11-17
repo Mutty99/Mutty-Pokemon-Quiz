@@ -1,7 +1,6 @@
 #include "Question.h"
 #include <cstdlib>
 #include <unistd.h>
-#include <limits>
 
 void GameOverSequence(const std::string& catchphrase, int special = 0) {
     std::cout << std::endl << catchphrase << std::endl;
@@ -104,7 +103,7 @@ int main() {
                 }
                 else if (score == 10) {
                     std::cout << "League Champion\n\nSWEET MOTHER OF ARCEUS! You did it! Replayed through or not, your knowledge is wondrous!\n";
-                    std::cout << "Since you've achieved a perfect score, I'll give you something that will aid you in your next quest:\n";
+                    std::cout << "Since you've achieved a perfect score, I'll give you something that will aid you in your next quest:\n\n";
                     std::cout << "https://www.youtube.com/user/Shippiddge\n7a2b3l1u0e2y1\n\nMay Arceus be with you, Pokemon Master...\n";
                 }
                 std::cout << std::endl;
@@ -275,7 +274,7 @@ int main() {
                             std::cout << "I hope you had a good time; if you figure out how to use this last password I just gave you,\n";
                             std::cout << "you can get a very special pokemon as a reward for completing the game.\n";
                             std::cout << "If you can edit your game save, you can bring it to your cartridge as well!\n";
-                            std::cout << "Please don't redistribute the link, but encourage other people to play through the quiz instead.\n";
+                            std::cout << "If you enjoyed this quiz, please share it with other fans of this franchise.\n";
                             std::cout << "I wish you the best, Pokemon Master. See ya!\n\nGAME 100% COMPLETED\n\n";
                             system("pause");
                             runtime = false;
